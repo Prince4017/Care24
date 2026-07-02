@@ -95,9 +95,10 @@ Technology Stack
 
 Frontend
 
-• JavaScript
+• JavaScript / css /HTML
 
 • React.js / Next.js
+
 
 Backend
 
