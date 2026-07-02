@@ -1,9 +1,9 @@
 import express from 'express';
-import Booking from '../models/Booking.js';
-import Caregiver from '../models/Caregiver.js';
-import Patient from '../models/Patient.js';
-import CareNote from '../models/CareNote.js';
-import { protect } from '../middleware/auth.js';
+import Booking from './Booking.js';
+import Caregiver from './Caregiver.js';
+import Patient from './Patient.js';
+import CareNote from './CareNote.js';
+import { protect } from './auth.js';
 
 const router = express.Router();
 
