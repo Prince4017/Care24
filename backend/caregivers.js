@@ -1,6 +1,6 @@
 import express from 'express';
-import Caregiver from '../models/Caregiver.js';
-import { protect } from '../middleware/auth.js';
+import Caregiver from './Caregiver.js';
+import { protect } from './auth.js';
 
 const router = express.Router();
 
