@@ -1,8 +1,8 @@
 import express from 'express';
 import bcrypt from 'bcryptjs';
-import User from '../User.js';
-import { generateToken } from '../generateToken.js';
-import { protect } from '../auth.js';
+import User from './User.js';
+import { generateToken } from './generateToken.js';
+import { protect } from './auth.js';
 
 const router = express.Router();
 
