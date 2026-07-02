@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import dns from 'dns';
-import Service from './models/Service.js';
+import Service from './Service.js';
 
 dotenv.config();
 dns.setServers(['8.8.8.8', '8.8.4.4']);
