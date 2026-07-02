@@ -1,13 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { connectDB } from './config/db.js';
-import Service from './models/Service.js';
-import authRoutes from './routes/auth.js';
-import caregiverRoutes from './routes/caregivers.js';
-import patientRoutes from './routes/patients.js';
-import bookingRoutes from './routes/bookings.js';
-import adminRoutes from './routes/admin.js';
+import { connectDB } from './db.js';
+import Service from './Service.js';
+import authRoutes from './auth.js';
+import caregiverRoutes from './caregivers.js';
+import patientRoutes from './patients.js';
+import bookingRoutes from './bookings.js';
+import adminRoutes from './admin.js';
 
 dotenv.config();
 connectDB();
